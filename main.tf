@@ -10,6 +10,6 @@ module "ebs-west" {
 
 module "ebs-east" {
     source = "./ebs"
-    aws_region = "us-east-2"
+    aws_region = "us-gov-east-1"
     execution_role_arn = aws_iam_role.dlm_lifecycle_role.arn
 }

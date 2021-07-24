@@ -1,4 +1,4 @@
 variable "aws_west_region" {
-    description = "West AWS region."
-    default = "us-west-1"
+    description = "West AWS GovCloud region."
+    default = "us-gov-west-1"
 }
